@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mojo Dojo — shop content</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="ribbon">
+    <a class="brand" href="#" id="brand-home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Mojo Dojo</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <button type="button" id="nav-about">About</button>
+      <a id="nav-discord" href="#" target="_blank" rel="noopener">Discord</a>
+      <a id="nav-channel" href="https://www.youtube.com/@Mojowerkin" target="_blank" rel="noopener">Channel</a>
+    </nav>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Pipeline">
+      <div class="sidebar-section pipeline">
+        <div class="section-head">Pipeline</div>
+        <ul class="topic-list" id="topic-list"></ul>
+      </div>
+      <div class="sidebar-section published">
+        <div class="section-head">Published</div>
+        <ul class="published-list" id="published-list"></ul>
+      </div>
+    </aside>
+
+    <main class="main" id="main"></main>
+  </div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

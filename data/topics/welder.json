@@ -1,0 +1,14 @@
+{
+  "id": "welder",
+  "title": "Welder / fab",
+  "status": "idea",
+  "notes": "PPE and lighting matter on camera. Good craftsman-mark reveal on finished pieces.",
+  "ideas": [
+    "Machine setup & consumables",
+    "Practice beads that teach control",
+    "Simple fixture or stand build",
+    "Stamp / brand the finished piece with the craftsman mark"
+  ],
+  "links": [],
+  "materials": ["welder", "PPE", "scrap stock"]
+}

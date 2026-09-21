@@ -1,0 +1,14 @@
+{
+  "id": "sawmill",
+  "title": "Sawmill",
+  "status": "idea",
+  "notes": "Outdoor/noisy — plan mic carefully. Great for long-form + shorts punch-ins.",
+  "ideas": [
+    "Reading a log before the first cut",
+    "Cant to boards",
+    "Drying / stickering overview",
+    "What makes a board shop-ready"
+  ],
+  "links": [],
+  "materials": ["log", "PPE", "moisture meter (optional)"]
+}

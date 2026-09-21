@@ -1,0 +1,33 @@
+{
+  "topics": [
+    {
+      "id": "coffee-tables",
+      "title": "Coffee tables",
+      "status": "idea",
+      "summary": "Build series — joinery, finish, and shop workflow for coffee tables.",
+      "ideasFile": "topics/coffee-tables.json"
+    },
+    {
+      "id": "bridgeport",
+      "title": "Bridgeport mill",
+      "status": "idea",
+      "summary": "Teaching cuts, setup, and safe operation on the Bridgeport.",
+      "ideasFile": "topics/bridgeport.json"
+    },
+    {
+      "id": "sawmill",
+      "title": "Sawmill",
+      "status": "idea",
+      "summary": "Milling stock — from log to usable lumber for shop projects.",
+      "ideasFile": "topics/sawmill.json"
+    },
+    {
+      "id": "welder",
+      "title": "Welder / fab",
+      "status": "idea",
+      "summary": "Fabrication basics and shop builds that need weld work.",
+      "ideasFile": "topics/welder.json"
+    }
+  ],
+  "published": []
+}

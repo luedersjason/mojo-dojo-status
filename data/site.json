@@ -1,0 +1,27 @@
+{
+  "name": "Mojo Dojo",
+  "tagline": "Shop content from the Mojo Dojo — made by Mojowerkin, edited by Ink",
+  "maker": {
+    "name": "Mojowerkin",
+    "role": "Maker / on-camera"
+  },
+  "youtube": {
+    "label": "Channel",
+    "handle": "@Mojowerkin",
+    "url": "https://www.youtube.com/@Mojowerkin",
+    "studio": "https://studio.youtube.com/channel/UCJ2wb9LS3q6L9JeBC6zgxeQ"
+  },
+  "discord": {
+    "label": "Discord",
+    "url": "",
+    "note": "Invite URL TBD — drop the server invite in data/site.json when ready"
+  },
+  "about": {
+    "blurb": "Mojo Dojo is the shop. Mojowerkin (Jason) makes and teaches on camera. Ink edits and publishes. DojoBot runs OBS, capture folders, and this status board.",
+    "roles": [
+      { "who": "Mojowerkin", "what": "The maker — teaches on camera at the Mojo Dojo (tables, Bridgeport, sawmill, welder). Does not manage files or YouTube." },
+      { "who": "Ink", "what": "Edits takes and publishes Mojo Dojo content to YouTube (@Mojowerkin)." },
+      { "who": "DojoBot", "what": "Owns OBS, ShopContent folders, pipeline status, and Discord when the server is live." }
+    ]
+  }
+}

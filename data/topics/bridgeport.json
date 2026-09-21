@@ -1,0 +1,14 @@
+{
+  "id": "bridgeport",
+  "title": "Bridgeport mill",
+  "status": "idea",
+  "notes": "Safety-first teaching. Multicam later for spindle + work + wide shop.",
+  "ideas": [
+    "Tramming the head — why it matters",
+    "Indicating a vise",
+    "First square block",
+    "Common mistakes that scrap parts"
+  ],
+  "links": [],
+  "materials": ["vise", "indicator", "scrap aluminum or steel"]
+}
