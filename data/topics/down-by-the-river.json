@@ -1,0 +1,82 @@
+{
+  "id": "down-by-the-river",
+  "title": "Down by the River",
+  "status": "idea",
+  "notes": "Flushed-out Mojo Dojo content topic. Unit 1168 — 2022 Ford Transit 350 HD AWD cutaway → Embassy Specialty Vehicles Fortress mobile-showroom body → owner-finished interior. Dual deliverables: public build showcase + private owner's dashboard (Victron VRM, climate, cameras). Drive folder \"Down by the River\" is the durable SoT for specs, copy, and handoffs; Mbot Stage exports track Session 2 confirm/defer work. Mojo shoots shop/van work; Ink cuts and publishes to @Mojowerkin.",
+  "ideas": [
+    "Series framing: luxury-RV convenience assembled à la carte — Victron whole-home power for ~$4k parts, T-slot + plywood galley, 3D-printed problem-solvers",
+    "Episode: chassis & Embassy body — Transit 350 HD AWD cutaway story, Unit 1168 delivery, Fortress composite shell",
+    "Episode: Victron power stack — NAZ order walkthrough, Cerbo GX, MultiPlus, battery, solar (observe-only; no live VRM control on camera without scrubbing credentials)",
+    "Episode: Galley build — farmhouse sink, touchless faucet, Bodega fridge, Cosori, SEAFLO pump; plumbing bay B-roll before drawers closed",
+    "Episode: Cabinets & finish — 80/20 extrusion, Patriot Timber ply, Osmo Polyx-Oil as hardwax oil (not polyurethane)",
+    "Episode: Climate stack — Shinic + Inkbird for cold floor; Midea Duo heat pump ~41°F outdoor limit (complementary, not redundant)",
+    "Episode: Printed parts — heater cap deflector, IKEA desk brackets, switch-plate faceplate (STL renders + install)",
+    "Episode / short: Never-publish scrub — Cerbo WiFi/BT pin photo, full VIN, home address, VRM portal ID, Embassy CAD IP",
+    "Future series hook: private dashboard build (VRM embed → RuuviTag → HVAC → camera) as Mojo Dojo tech-in-the-shop content",
+    "Shot list wishlist: Nov plumbing photos, electrical bay, cabinet grain close-ups, exterior hero (pole barn is NOT the hero), river/shop context B-roll"
+  ],
+  "links": [
+    {
+      "label": "Drive — Down by the River folder",
+      "url": "https://drive.google.com/drive/folders/1seGjSeyUBSBvkySIXSIQ6mmNycyhVTQy"
+    },
+    {
+      "label": "Drive — down-by-the-river.md (project rebuild / memory)",
+      "url": "https://drive.google.com/file/d/133A2128YqLBsWDzgQVTZZwot8r_N3P6-/view"
+    },
+    {
+      "label": "Drive — _START-HERE.md",
+      "url": "https://drive.google.com/file/d/1zjDyGegnfGQDewPQs0LaDR5JMj9ZpCyZ/view"
+    },
+    {
+      "label": "Drive — project-index.md",
+      "url": "https://drive.google.com/file/d/1N9fpr8Yuw-E3dF214MXnEPketyVEDySA/view"
+    },
+    {
+      "label": "Drive — claude_website-roadmap.md",
+      "url": "https://drive.google.com/file/d/1GMxGlTOuRN1kYq7rZdq4a4biPiOs_qh8/view"
+    },
+    {
+      "label": "Drive — site-copy.md",
+      "url": "https://drive.google.com/file/d/1xZZ3RtkO_sGYUFOhK68XsnqVedurDMD6/view"
+    },
+    {
+      "label": "Drive — DBTR Project Stage (Google Doc)",
+      "url": "https://docs.google.com/document/d/14QmWhOQKyKpGvTJ7OHDkpk7Y-DNY4VeJHnOdhbld6Jk/edit"
+    },
+    {
+      "label": "GitHub — luedersjason/Down-by-the-River",
+      "url": "https://github.com/luedersjason/Down-by-the-River"
+    },
+    {
+      "label": "Discord — #down-by-the-river",
+      "url": "https://discord.com/channels/1551681941684617327/1551694565331836971"
+    }
+  ],
+  "materials": [
+    "Unit 1168: 2022 Ford Transit 350 HD AWD cutaway (156\" WB, EcoBoost V6, Motorhome Prep + Upfitter)",
+    "Embassy Specialty Vehicles Fortress body ~12' × 7.3' × 6.75' — delivered ~08/08/2025 @ 34 mi; conversion ~$85.4k all-in (contract facts stay private on public pages)",
+    "Victron whole-home-class power (~$4,062.74 NAZ Solar Electric parts) — Cerbo GX, MultiPlus, LiFePO4, solar; VRM observe-only policy for public content",
+    "Interior: aluminum T-slot / 80/20 frame, plywood cabinets, Osmo Polyx-Oil hardwax oil finish system",
+    "Galley: farmhouse sink, touchless faucet, Bodega CR fridge, Cosori air fryer, SEAFLO pump",
+    "Climate: Shinic 1500W + Inkbird WiFi thermostat; Midea Duo ~12k BTU portable heat pump",
+    "3D-printed: heater cap, desk brackets, switch faceplate",
+    "Cameras / dash candidates: BEENOCAM (public-safe), Weivision 360 out of network scope",
+    "Content/site phases: Phase 0 unblock → Phase 1 copy/assets → Phase 2 public site v1 (Netlify) → Phase 3 owner dashboard → Phase 4 living docs",
+    "Session 2 (Mbot Stage): still open — Jason Confirm/Defer on copy holes + launch blockers (domain, hero imagery, VRM-as-owner-dashboard-only); blanks stay blank until he fills"
+  ],
+  "sources": {
+    "driveFolderId": "1seGjSeyUBSBvkySIXSIQ6mmNycyhVTQy",
+    "aiPlatforms": [
+      "Claude project docs + website roadmap + handoffs (mirrored to Drive)",
+      "Mbot Stage machine exports (READY/LEAN down-by-the-river siblings under /workspace/mbot-sweep)",
+      "Google Drive canonical content/ set (positioning, van-specs, power-system, site-copy, etc.)"
+    ],
+    "openGates": [
+      "Domain name TBD",
+      "Confirm/Defer site-copy §9 holes (BTU, solar watts, tanks, IKEA desk model, monitor count, etc.) — do not invent",
+      "Launch blockers: domain; pole-barn must not be hero; VRM owner-dashboard only",
+      "Sanitize before any public still/frame: Cerbo credential photo, full VIN, home address, VRM ID, Embassy CAD sheets"
+    ]
+  }
+}

@@ -1,10 +1,17 @@
 {
   "topics": [
     {
+      "id": "down-by-the-river",
+      "title": "Down by the River",
+      "status": "idea",
+      "summary": "Van/mobile-showroom build series \u2014 Transit \u2192 Embassy body \u2192 DIY interior, Victron power, public site + owner dashboard. Drive + Claude/Mbot notes consolidated.",
+      "ideasFile": "topics/down-by-the-river.json"
+    },
+    {
       "id": "coffee-tables",
       "title": "Coffee tables",
       "status": "idea",
-      "summary": "Build series — joinery, finish, and shop workflow for coffee tables.",
+      "summary": "Build series \u2014 joinery, finish, and shop workflow for coffee tables.",
       "ideasFile": "topics/coffee-tables.json"
     },
     {
@@ -18,7 +25,7 @@
       "id": "sawmill",
       "title": "Sawmill",
       "status": "idea",
-      "summary": "Milling stock — from log to usable lumber for shop projects.",
+      "summary": "Milling stock \u2014 from log to usable lumber for shop projects.",
       "ideasFile": "topics/sawmill.json"
     },
     {
