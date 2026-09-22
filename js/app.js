@@ -48,9 +48,25 @@ function renderAbout(site) {
   const roles = (site.about?.roles || [])
     .map((r) => `<div class="role"><strong>${r.who}</strong><span class="muted">${r.what}</span></div>`)
     .join("");
+  const brand = site.brand || {};
+  const seal = brand.shopSeal || "public/brand/shop-seal-light.png";
+  const mark = brand.makerMark || "public/brand/maker-mark-light.png";
   return `
     <h1>About</h1>
     <p class="lede">${site.about?.blurb || ""}</p>
+    <div class="card">
+      <h2>Marks</h2>
+      <div class="brand-lockup">
+        <div>
+          <img class="shop-seal" src="${seal}" alt="Mojo Dojo shop seal" />
+          <p class="brand-caption">Shop seal — Mojo Dojo wordmark</p>
+        </div>
+        <div>
+          <img class="maker-mark-lg" src="${mark}" alt="Mojowerkin maker mark" />
+          <p class="brand-caption">Maker mark — craftsman’s stamp</p>
+        </div>
+      </div>
+    </div>
     <div class="card">
       <h2>Roles</h2>
       <div class="role-grid">${roles}</div>
