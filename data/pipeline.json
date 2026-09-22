@@ -36,5 +36,19 @@
       "ideasFile": "topics/welder.json"
     }
   ],
-  "published": []
+  "published": [],
+  "handoffs": [
+    {
+      "id": "thinq-test-2026-09-21",
+      "title": "ThinQ smoke take (first live cam)",
+      "status": "ready",
+      "created": "2026-09-21T20:41:17-05:00",
+      "cam": "LG ThinQ via DroidCam",
+      "file": "mojo_2026-09-21_20-41-17.mkv",
+      "size_mb": 4.3,
+      "drive_folder": "https://drive.google.com/drive/folders/1hWa73rDekkntJFeadn98ROkLGzf_hH8J",
+      "drive_file": "https://drive.google.com/file/d/1H0ePY4LxEaVI8rUzQeyqRGhD6PAXgWAz/view",
+      "notes": "First live ThinQ \u2192 OBS take. Ink: open Drive link, confirm you can download."
+    }
+  ]
 }

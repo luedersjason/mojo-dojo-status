@@ -36,9 +36,25 @@ function renderOverview(site, pipeline) {
       <div class="stat"><b>${published}</b><span>Published</span></div>
     </div>
     <div class="card">
+      <h2>Ready for Ink</h2>
+      ${(pipeline.handoffs || []).length
+        ? (pipeline.handoffs || []).map((h) => `
+            <div class="handoff">
+              <div class="topic-title-row"><strong>${h.title}</strong> ${chip(h.status || "ready")}</div>
+              <p class="muted">${h.notes || ""}</p>
+              <ul>
+                <li>File: <code>${h.file || ""}</code> (${h.size_mb || "?"} MB) — ${h.cam || ""}</li>
+                <li><a href="${h.drive_file}" target="_blank" rel="noopener">Open video on Drive</a></li>
+                <li><a href="${h.drive_folder}" target="_blank" rel="noopener">Open handoff folder</a></li>
+              </ul>
+            </div>`).join("")
+        : `<p class="muted">No takes waiting yet.</p>`}
+    </div>
+    <div class="card">
       <h2>How this board works</h2>
       <p class="muted"><strong>Pipeline</strong> (left) = topics in flight. Each has an idea repo — notes, shot list, materials.</p>
       <p class="muted"><strong>Published</strong> (under pipeline) = already on YouTube for the public.</p>
+      <p class="muted"><strong>Ready for Ink</strong> = capture packs on Drive for edit.</p>
       <p class="muted">Content brand: <strong>Mojo Dojo</strong>. Maker: <strong>${site.maker?.name || "Mojowerkin"}</strong>.</p>
     </div>
   `;
